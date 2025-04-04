@@ -88,14 +88,25 @@ Após a conclusão do curso/projeto, os estudantes estarão aptos a:
 
 - Criar um projeto Java com Spring.
 - Criar uma API REST com boas práticas
+- 
+## Testando a Aplicação
+- Execute o projeto com ./gradlew bootRun.
+- Use uma ferramenta como Postman ou Insomnia para enviar requisições POST para http://localhost:8080/appointments com o corpo JSON:
 
+Json:
+
+{
+  "barberId": 1,
+  "customerName": "John Doe",
+  "appointmentDate": "2023-12-01T14:00:00"
+}
 <!--START_SECTION:footer-->
 
 <br />
 <br />
 
 <p align="center">
-  <a href="https://www.dio.me/" target="_blank">
+  <a href="[https://www.dio.me/](https://www.dio.me/sign-up?ref=AFNHDE3GZLD8)" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
   </a>
 </p>
